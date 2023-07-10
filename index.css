@@ -37,8 +37,34 @@ ul {
     list-style: none;
 }
 
-h1 {
+h1,
+h2 {
     margin-bottom: calc(var(--spacer) * 2);
+}
+
+.heading {
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    margin-bottom: 1em;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    width: 80vw;
+}
+
+main.coming-soon {
+    text-align: center;
 }
 
 /* Header */
