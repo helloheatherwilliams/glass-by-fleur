@@ -175,4 +175,8 @@ h1 {
     .hamburger {
         display: none;
     }
+
+    .logo {
+        font-size: 32px;
+    }
 }
