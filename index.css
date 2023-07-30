@@ -189,6 +189,10 @@ header .logo-link {
     top:0;
 }
 
+.side-menu:checked ~ nav .logo {
+    display: none;
+}
+
 /* Footer */
 @media (min-width: 400px) {
     .menu-footer {
