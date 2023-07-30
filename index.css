@@ -70,6 +70,7 @@ main {
     width: 80vw;
     flex: 1 1 auto;  /*grow vertically*/
     padding-bottom: 50px;
+    padding-top: 85px;
 }
 
 main.coming-soon {
@@ -85,7 +86,7 @@ main.coming-soon {
 /* Header */
 header {
     background-color: var(--background);
-    position: sticky;
+    position: fixed;
     /* position: relative;
     position: fixed; */
     width: 100%;
@@ -93,6 +94,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    z-index: 50;
 }
 
 header .logo-link {
