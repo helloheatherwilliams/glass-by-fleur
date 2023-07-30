@@ -83,6 +83,10 @@ main.coming-soon {
     padding: var(--spacer);
 }
 
+.email__link {
+    color: var(--font);
+}
+
 /* Header */
 header {
     background-color: var(--background);
