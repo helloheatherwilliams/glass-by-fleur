@@ -377,3 +377,10 @@ footer li {
     height: 100%;
     width: auto;
 }
+
+/* Workshops */
+
+.quote {
+    background-color: #d7e3d1;
+    padding: 0.75rem;
+}
